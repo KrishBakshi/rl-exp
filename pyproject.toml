@@ -3,12 +3,16 @@ name = "rl-exp"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.13"
 dependencies = [
-    "gymnasium[classic-control]>=1.2.0",
+    "flappy-bird-gymnasium>=0.4.0",
+    "gymnasium>=1.2.0",
+    "imageio>=2.37.0",
     "ipykernel>=6.30.1",
     "matplotlib>=3.10.6",
-    "seaborn>=0.13.2",
+    "moviepy>=2.2.1",
+    "opencv-python>=4.12.0.88",
+    "pyyaml>=6.0.2",
     "torch>=2.8.0",
     "torchvision>=0.23.0",
 ]
